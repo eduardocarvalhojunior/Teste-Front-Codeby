@@ -94,51 +94,51 @@ body {
     font-weight: 600;
 }
 
-.frame-body .categories_box{
+.frame-body .frame-pics {
     display: flex;
     flex-wrap: wrap;
 }
 
-.frame-body .categories_box + .categories_box{
+.frame-body .frame-pics + .frame-pics {
     margin-top: 30px;
 }
 
-.frame-body .categories_box .text{
-    color: #FFFFFF;
+.frame-body .frame-pics .text {
+    color: white;
 }
 
-.frame-body .categories_box .text h1{
+.frame-body .frame-pics .text h1 {
     font-size: 3.25em;
     font-weight: 600;
     margin-bottom: 3px;
 }
 
-.frame-body .categories_box .text p{
+.frame-body .frame-pics .text p {
     font-size: 1.25em;
     font-weight: 600;
 }
 
-.frame-body .categories_box .category{
+.frame-body .frame-pics .block {
     position: relative;
     height: 353px;
 }
 
-.frame-body .categories_box .category + .category{
+.frame-body .frame-pics .block + .block {
     margin-left: 30px;
 }
 
-.frame-body .categories_box .category img{
+.frame-body .frame-pics .block img {
     width: 100%;
     height: 346px;
 }
 
-.main_growth{
+.main_growth {
     background-color: #F4F4F4;
     color: #FFFFFF;
     padding: 92.9px 0 94.5px 0;
 }
 
-.main_growth header{
+.main_growth header {
     position: absolute;
 }
 
@@ -230,20 +230,20 @@ body {
         padding: 0 15px;
     }
 
-    .frame-body .categories_box .category,
-    .frame-body .categories_box .category img{
+    .frame-body .frame-pics .block,
+    .frame-body .frame-pics .block img{
         width: 100%;
     }
 
-    .frame-body .categories_box .category + .category{
+    .frame-body .frame-pics .block + .block{
         margin-left: 0 !important;
     }
 
-    .frame-body .categories_box + .categories_box {
+    .frame-body .frame-pics + .frame-pics {
         margin-top: 0;
     }
 
-    .frame-body .categories_box .text p{
+    .frame-body .frame-pics .text p{
         max-width: 249px;
     }
 
@@ -255,7 +255,7 @@ body {
         width: 50vw;
     }
 
-    .main_growth header h1{
+    .main_growth header h1 {
         font-size: 2.75em;
     }
 
@@ -264,7 +264,7 @@ body {
         margin: 0;
     }
 
-    .main_growth .plan_info p{
+    .main_growth .plan_info p {
         font-size: 0.65em !important;
         line-height: 1;
         margin-top: 10px;
@@ -273,15 +273,15 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
-    .frame-body .categories_box .category + .category{
+    .frame-body .frame-pics .block + .block {
         margin-left: 25px;
     }
 
-    .frame-body .categories_box .text p{
+    .frame-body .frame-pics .text p {
         max-width: 279px;
     }
 
-    .frame-body .categories_box .category img{
+    .frame-body .frame-pics .block img {
         max-width: 346.8px;
     }
 
