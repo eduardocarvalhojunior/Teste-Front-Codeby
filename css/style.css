@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    outline: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: url(../images/background.png) no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 1px 6px 10px rgba(50, 50, 50, 0.57);	
+}
+
+.header-top h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 74.4px;
+    max-width: 678px;
+    margin: 71.9px 0 51.1px;
+}
+
+.btn {
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 15px 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 245px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.frame-top{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.txt-home1 {
+    position: absolute;
+    top: 20.2px;
+    left: 30.5px;
+}
+
+.txt-home2 {
+    position: absolute;
+    top: 20.2px;
+    right: 30.5px;
+    text-align: right;
+}
+
+.txt-home3 {
+    position: absolute;
+    top: 50%;
+    left: 30.5px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.frame-body{
+    margin-bottom: 96px;
+}
+
+.frame-body header{
+    margin: 39.9px 0 49.1px 0;
+}
+
+.frame-body header h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.frame-body {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.frame-body .categories_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.frame-body .categories_box + .categories_box{
+    margin-top: 30px;
+}
+
+.frame-body .categories_box .text{
+    color: #FFFFFF;
+}
+
+.frame-body .categories_box .text h1{
+    font-size: 3.25em;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.frame-body .categories_box .text p{
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.frame-body .categories_box .category{
+    position: relative;
+    height: 353px;
+}
+
+.frame-body .categories_box .category + .category{
+    margin-left: 30px;
+}
+
+.frame-body .categories_box .category img{
+    width: 100%;
+    height: 346px;
+}
+
+.main_growth{
+    background-color: #F4F4F4;
+    color: #FFFFFF;
+    padding: 92.9px 0 94.5px 0;
+}
+
+.main_growth header{
+    position: absolute;
+}
+
+.main_growth header h1{
+    font-size: 3.25em;
+    font-weight: 600;
+    color: #383838;
+    margin-bottom: 5px;
+}
+
+.main_growth header p{
+    font-size: 1.125em;
+    font-weight: 600;
+    color: #383838;
+}
+
+.main_growth .main_plans{
+    position: relative;
+}
+
+.main_growth .plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main_growth .plans .plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #0179d4;
+    height: 25vh;
+    min-width: 170px;
+}
+
+.main_growth .plans .plan + .plan{
+    margin-left: 30px;
+}
+
+.main_growth .plans .plan:nth-child(2){
+    height: 30vh;
+}
+
+.main_growth .plans .plan:nth-child(3){
+    height: 35vh;
+}
+
+.main_growth .plans .plan:nth-child(4){
+    height: 40vh;
+}
+
+.main_growth .plans .plan:nth-child(5){
+    height: 45vh;
+}
+
+.main_growth .plans .plan:nth-child(6){
+    height: 50vh;
+}
+
+
+.main_growth .plan_info{
+    background-color: #005499;
+}
+
+.main_growth .plan_info h2{
+    font-size: 2.125em;
+    font-weight: 600;
+    margin: 13.3px 0 -13.3px 18.4px;
+}
+
+.main_growth .plan_info p{
+    font-size: 1.25em !important;
+    font-weight: 600;
+}
+
+.main_growth .plans .plan p{
+    font-size: 0.75em;
+    font-weight: 400;
+    padding:  0 23.6px 14.2px 18.4px;
+}
+
+
+
+
+@media screen and (max-width: 575.98px) {
+    .header-top h1{
+        font-size: 3.25em;
+        line-height: 54.4px;
+        padding: 0 15px;
+    }
+
+    .frame-body .categories_box .category,
+    .frame-body .categories_box .category img{
+        width: 100%;
+    }
+
+    .frame-body .categories_box .category + .category{
+        margin-left: 0 !important;
+    }
+
+    .frame-body .categories_box + .categories_box {
+        margin-top: 0;
+    }
+
+    .frame-body .categories_box .text p{
+        max-width: 249px;
+    }
+
+    .main_growth .plan_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+    }
+
+    .main_growth header h1{
+        font-size: 2.75em;
+    }
+
+    .main_growth .plan_info h2{
+        font-size: 1.75em;
+        margin: 0;
+    }
+
+    .main_growth .plan_info p{
+        font-size: 0.65em !important;
+        line-height: 1;
+        margin-top: 10px;
+        padding: 0 5px 5px 5px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+    .frame-body .categories_box .category + .category{
+        margin-left: 25px;
+    }
+
+    .frame-body .categories_box .text p{
+        max-width: 279px;
+    }
+
+    .frame-body .categories_box .category img{
+        max-width: 346.8px;
+    }
+
+    .img_full{
+        max-width: 723.6px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img_larger{
+        max-width: 545px;
+    }
+
+    .img_full{
+        max-width: 945px;
+    }
+
+    .main_growth{
+        padding-top: 40px;
+    }
+
+    .main_growth .main_plans,
+    .main_growth header {
+        position: unset;
+    }
+
+    .main_growth header{
+        margin-bottom: 40px;
+    }
+
+    .main_growth .plans{
+        display: flex;
+        justify-content: stretch;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .main_growth .plans .plan,
+    .main_growth .plans .plan:nth-child(2),
+    .main_growth .plans .plan:nth-child(3),
+    .main_growth .plans .plan:nth-child(4),
+    .main_growth .plans .plan:nth-child(5),
+    .main_growth .plans .plan:nth-child(6) {
+        height: unset;
+    }
+
+    .main_growth .plans .plan{
+        justify-content: stretch;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main_growth .plans .plan + .plan{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .frame-top{
+        padding: 0 15px;
+    }
+}
